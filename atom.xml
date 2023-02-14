@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="https://tyhiwzm.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://tyhiwzm.github.io/"/>
+  <updated>2023-02-14T15:15:38.378Z</updated>
+  <id>https://tyhiwzm.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://tyhiwzm.github.io/2023/02/14/test/"/>
+    <id>https://tyhiwzm.github.io/2023/02/14/test/</id>
+    <published>2023-02-14T15:07:35.000Z</published>
+    <updated>2023-02-14T15:15:38.378Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/02/14/test/1.jpg&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;title-Hello-World&quot;&gt;&lt;a href=&quot;#title-Hello-World&quot; class=&quot;headerlink&quot; title=&quot;title:</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
