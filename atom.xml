@@ -6,7 +6,7 @@
   <link href="https://tyhiwzm.github.io/atom.xml" rel="self"/>
   
   <link href="https://tyhiwzm.github.io/"/>
-  <updated>2023-02-15T08:53:07.210Z</updated>
+  <updated>2023-02-15T14:14:02.471Z</updated>
   <id>https://tyhiwzm.github.io/</id>
   
   <author>
@@ -17,11 +17,117 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【Vivado】ROM IP核的使用</title>
+    <link href="https://tyhiwzm.github.io/posts/ab5b7cc3.html"/>
+    <id>https://tyhiwzm.github.io/posts/ab5b7cc3.html</id>
+    <published>2023-02-15T14:11:49.714Z</published>
+    <updated>2023-02-15T14:14:02.471Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;h3&gt;&lt;span id=&quot;rom-ip核的创建方法&quot;&gt;&lt;strong&gt;ROM IP核的创建方法&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Vivado" scheme="https://tyhiwzm.github.io/tags/Vivado/"/>
+    
+    <category term="IC设计" scheme="https://tyhiwzm.github.io/tags/IC%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【VMware】VMware与Windows无法相互拖拽文件、粘贴复制的解决办法</title>
+    <link href="https://tyhiwzm.github.io/posts/6820c6bc.html"/>
+    <id>https://tyhiwzm.github.io/posts/6820c6bc.html</id>
+    <published>2023-02-15T14:10:27.578Z</published>
+    <updated>2023-02-15T14:11:12.073Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在虚拟机的命令行输入以下命令：&lt;br&gt;&lt;/p&gt;&lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;$sudo apt-get autoremove</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="VMware" scheme="https://tyhiwzm.github.io/tags/VMware/"/>
+    
+    <category term="虚拟机" scheme="https://tyhiwzm.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【GNU/Linux】Vim命令大全</title>
+    <link href="https://tyhiwzm.github.io/posts/1654194f.html"/>
+    <id>https://tyhiwzm.github.io/posts/1654194f.html</id>
+    <published>2023-02-15T14:08:52.242Z</published>
+    <updated>2023-02-15T14:09:38.100Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;===============================================================================&lt;/p&gt;
+&lt;h1&gt;&lt;span id=&quot;欢-迎-阅-读-v-i-m-教-程-版本-17&quot;&gt;=      欢    </summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="GNU/Linux" scheme="https://tyhiwzm.github.io/tags/GNU-Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【GNU/Linux】Unified Format</title>
+    <link href="https://tyhiwzm.github.io/posts/6393c1cf.html"/>
+    <id>https://tyhiwzm.github.io/posts/6393c1cf.html</id>
+    <published>2023-02-15T14:00:06.353Z</published>
+    <updated>2023-02-15T14:08:02.917Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;该格式用来对比修改前和修改后的两个文件的差异&quot;&gt;该格式用来对比修改前和修改后的两个文件的差异&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="GNU/Linux" scheme="https://tyhiwzm.github.io/tags/GNU-Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一切的开始</title>
-    <link href="https://tyhiwzm.github.io/posts/0.html"/>
-    <id>https://tyhiwzm.github.io/posts/0.html</id>
+    <link href="https://tyhiwzm.github.io/posts/25e1c0d9.html"/>
+    <id>https://tyhiwzm.github.io/posts/25e1c0d9.html</id>
     <published>2023-02-15T07:40:48.164Z</published>
-    <updated>2023-02-15T08:53:07.210Z</updated>
+    <updated>2023-02-15T14:07:59.768Z</updated>
     
     
       
@@ -34,8 +140,8 @@
     
     
     
+    <category term="生活" scheme="https://tyhiwzm.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="生活" scheme="https://tyhiwzm.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
     <category term="wzm" scheme="https://tyhiwzm.github.io/tags/wzm/"/>
     
