@@ -6,31 +6,42 @@
   <link href="https://tyhiwzm.github.io/atom.xml" rel="self"/>
   
   <link href="https://tyhiwzm.github.io/"/>
-  <updated>2023-02-14T15:15:38.378Z</updated>
+  <updated>2023-02-15T01:42:58.100Z</updated>
   <id>https://tyhiwzm.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>flying alpaca</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://tyhiwzm.github.io/2023/02/15/1/"/>
+    <id>https://tyhiwzm.github.io/2023/02/15/1/</id>
+    <published>2023-02-15T01:42:58.099Z</published>
+    <updated>2023-02-15T01:42:58.100Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>test</title>
     <link href="https://tyhiwzm.github.io/2023/02/14/test/"/>
     <id>https://tyhiwzm.github.io/2023/02/14/test/</id>
     <published>2023-02-14T15:07:35.000Z</published>
-    <updated>2023-02-14T15:15:38.378Z</updated>
+    <updated>2023-02-15T01:55:44.190Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2023/02/14/test/1.jpg&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;title-Hello-World&quot;&gt;&lt;a href=&quot;#title-Hello-World&quot; class=&quot;headerlink&quot; title=&quot;title:</summary>
+    <summary type="html">&lt;h2 id=&quot;vec-a&quot;&gt;&lt;a href=&quot;#vec-a&quot; class=&quot;headerlink&quot; title=&quot;$\vec{a}$&quot;&gt;&lt;/a&gt;&lt;img src=&quot;/2023/02/14/test/1.jpg&quot; alt=&quot;1&quot;&gt;&lt;br&gt;$\vec{a}$&lt;br&gt;&lt;pre</summary>
         
       
     
