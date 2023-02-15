@@ -8,9 +8,19 @@
       <link href="/posts/0.html"/>
       <url>/posts/0.html</url>
       
-        <content type="html"><![CDATA[<p><img src="/posts/0.htm/cat1.jpg" width="10%" height="10%" alt="tyh&amp;wzm"> </p><div style="display:none">width和heigh也可以是百分比，比如width = "50%" height = "50%"</div><div style="display:none">这是一段注释</div><div style="display:none">如果看到我，说明隐藏失败</div>]]></content>
+        <content type="html"><![CDATA[<p>我和我的最爱！<br><img src="/img/tang/pic1.jpg" width="50%" height="50%" alt="tyh&amp;wzm"></p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> wzm </tag>
+            
+            <tag> tyh </tag>
+            
+        </tags>
       
     </entry>
     

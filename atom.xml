@@ -6,7 +6,7 @@
   <link href="https://tyhiwzm.github.io/atom.xml" rel="self"/>
   
   <link href="https://tyhiwzm.github.io/"/>
-  <updated>2023-02-15T08:06:34.897Z</updated>
+  <updated>2023-02-15T08:52:06.797Z</updated>
   <id>https://tyhiwzm.github.io/</id>
   
   <author>
@@ -21,20 +21,25 @@
     <link href="https://tyhiwzm.github.io/posts/0.html"/>
     <id>https://tyhiwzm.github.io/posts/0.html</id>
     <published>2023-02-15T07:40:48.164Z</published>
-    <updated>2023-02-15T08:06:34.897Z</updated>
+    <updated>2023-02-15T08:52:06.797Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/posts/0.htm/cat1.jpg&quot; width=&quot;10%&quot; height=&quot;10%&quot; alt=&quot;tyh&amp;amp;wzm&quot;&gt; &lt;/p&gt;
-&lt;div style=&quot;display:none&quot;&gt;width和heigh也可以是百分比，比如width =</summary>
+    <summary type="html">&lt;p&gt;我和我的最爱！&lt;br&gt;&lt;img src=&quot;/img/tang/pic1.jpg&quot; width=&quot;50%&quot; height=&quot;50%&quot;</summary>
         
       
     
     
     
+    
+    <category term="生活" scheme="https://tyhiwzm.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="wzm" scheme="https://tyhiwzm.github.io/tags/wzm/"/>
+    
+    <category term="tyh" scheme="https://tyhiwzm.github.io/tags/tyh/"/>
     
   </entry>
   
