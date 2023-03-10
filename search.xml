@@ -60,6 +60,33 @@
     
     
     <entry>
+      <title>【GNU/Linux】Missing Semester</title>
+      <link href="/posts/341ca211.html"/>
+      <url>/posts/341ca211.html</url>
+      
+        <content type="html"><![CDATA[<h2><span id="1-lecture-1-course-overview-the-shell">1 Lecture 1: Course Overview + The Shell</span></h2><ul><li><a href="https://missing-semester-cn.github.io/2020/course-shell/">笔记</a></li><li><a href="https://www.youtube.com/watch?v=Z56Jmr9Z34Q&amp;t=10s">网课</a><h3><span id="11-输入输出流重定向">1.1 输入输出流重定向</span></h3></li><li>一般来说，Shell的输入流默认是指键盘输入，而输出流默认是终端。Shell给了程序员一种重新连接输入输出流的方式。<ul><li>最直接的方法是使用尖括号<code>&lt; fileA &gt; fileB</code>，其中 <code>&lt;</code> 代表重新定义输入流， <code>&gt;</code> 代表重新定义输出流。<ul><li>举例: 将hello.txt文件复制到hello2.txt<br><code>$ cat &lt; hello.txt &gt; hello2.txt</code></li><li>解释：<ul><li><code>$ cat file</code> 含义是将文件输入直接连接到输出，比如 <code>$ cat hello.txt</code>是直接将输入<code>hello.txt</code>连接到默认的输出流终端。</li><li><code>$ cat &lt; hello.txt &gt; hello2.txt</code>是首先执行<code>cat &lt; hello.txt</code>，即将<code>cat</code>的输入流重定向为<code>hello.txt</code>，然后执行<code>&gt; hello2.txt</code>，即将<code>cat</code>的输出流重定向为<code>hello2.txt</code>。实现功能与<code>$ cp hello.txt hello2.txt</code>一致。</li></ul></li><li>举例：<code>&gt;</code>具有覆盖原文件的效果。若不想进行覆盖，而只是追加，则使用<code>&gt;&gt;</code>。</li></ul></li></ul></li></ul><h3><span id="12-同时执行与管道传参">1.2 <code>;</code>同时执行与<code>|</code>“管道”传参</span></h3><ul><li>如果有同时执行多条命令的需要，即可以使用<code>;</code><ul><li>举例：同时执行<code>ls</code>和<code>ls -a</code><br><code>$ ls ; ls -a</code></li><li>解释：用<code>;</code>隔开每个命令后，每个命令按照从左到右的顺序，顺序执行，彼此之间不关心是否失败， 所有命令都会执行。</li></ul></li><li><code>|</code>主要用于参数传递。即使用<code>|</code>后，上一条命令的输出，作为下一条命令参数。<ul><li>举例：<code>$ tee</code>命令基于标准输入读取数据，标准输出或文件写入数据。<br><code>$ echo hello | tee hello.txt</code><pre class="language-none"><code class="language-none">hello</code></pre></li><li>解释： <code>echo hello | tee</code>将<code>echo hello</code>的输出作为<code>tee</code>的输入，同时<code>tee hello.txt</code>能够在把输入写入到hello.txt的同时，并且在默认输出即终端上打印。<h3><span id="13-内核参数sys和超级特权态sudo-su">1.3. 内核参数<code>sys</code>和超级特权态<code>sudo su</code></span></h3></li></ul></li><li><code>sys</code>并不是文件，它是集成好的内核参数<ul><li>举例：访问方式:<br><code>$ cd /sys</code><pre class="language-none"><code class="language-none">block  class  devices   fs          kernel  powerbus    dev    firmware  hypervisor  module</code></pre></li><li>解释：里面的各种参数都是与硬件设置相关，用户态下不允许对里面的各种文件进行修改。如果想要操作，必须进入超级特权态。</li></ul></li><li><code>$ sudo su</code>进入超级特权态<ul><li>举例：在用户态下，命令行显示的都是<code>$</code>，使用<code>$ sudo su</code>后，进入超级特权态，命令行的显示变成<code>#</code>。退出使用<code># exit</code></li><li>解释：不需解释。</li></ul></li></ul><h2><span id="2-lecture-1-course-overview-the-shell">2 Lecture 1: Course Overview + The Shell</span></h2><ul><li><a href="https://missing-semester-cn.github.io/2020/shell-tools/">笔记</a></li><li><a href="https://www.youtube.com/watch?v=kgII-YWo3Zw">网课</a><h3><span id="21-单引号-和双引号">2.1 单引号 <code>''</code>和双引号<code>""</code></span></h3><ul><li>举例:<code>$foo=bar 注释： 注意不能写出foo=bar</code><br>则使用<code>$echo "Value is $foo"</code>输出<code>Value is bar</code>；使用<code>$echo 'Value is $foo'</code>输出<code>Value is $foo</code>。</li><li>解释:以<code>''</code>定义的字符串为原义字符串，其中的变量不会被转义，而 <code>""</code>定义的字符串会将变量值进行替换。</li><li>举例:<pre class="language-none"><code class="language-none">$ vim mcd.sh注释：此时进入mcd.sh文件中mcd(){    mkdir -p "$1" # 创建名为传入的第一个参数的目录    cd "$1"       # 进入该目录}注释: 退出vim后$ source mcd.sh 注释：这条命令是加载mcd.sh$ mcd test      注释：创建名为test的目录，并且进入该目录</code></pre></li><li>解释：<br>这里 <code>$1</code> 是脚本的第一个参数。与其他脚本语言不同的是，bash使用了很多特殊的变量来表示参数、错误代码和相关变量。下面是列举来其中一些变量，更完整的列表可以参考<a href="https://tldp.org/LDP/abs/html/special-chars.html">here</a>。<ul><li><code>$0 - 脚本名</code></li><li><code>$1到$9 - 脚本的参数。 $1 是第一个参数，依此类推。</code></li><li><code>$@ - 所有参数</code></li><li><code>$# - 参数个数</code></li><li><code>$? - 前一个命令的返回值</code></li><li><code>$$ - 当前脚本的进程识别码</code></li><li><code>!! - 完整的上一条命令，包括参数。常见应用：当你因为权限不足执行命令失败时，可以使用 sudo !!再尝试一次。</code></li><li><code>$_ - 上一条命令的最后一个参数。如果你正在使用的是交互式 shell，你可以通过按下 Esc 之后键入 . 来获取这个值。</code></li></ul></li></ul></li><li>举例:  <pre class="language-none"><code class="language-none">注释：想在mcd.sh脚本中查找foobar字符，由于没有，肯定查找失败。通过echo $?输出上一条指令的错误代码，由于错误，所以返回1。如果正确会返回0$ grep foobar mcd.sh$ echo $?1 注释：||和&amp;&amp;都属于短路运算符，用来进行条件判断。注释：使用||时，如果前面的命令返回true(即0)，那么后面的命令会被短路；使用&amp;&amp;时，如果前面的命令返回false(即非0),那么后面的命令将会被短路。$ false || echo "Oops, fail"Oops, fail$ true || echo "Will not be printed"无输出$ true &amp;&amp; echo "Things went well"Things went well$ false &amp;&amp; echo "Will not be printed"无输出$ false ; echo "This will always run"This will always run</code></pre><h3><span id="22-cmd和ltcmd">2.2 <code>$(CMD)</code>和<code>&lt;(CMD)</code></span></h3><ul><li>举例：<pre class="language-none"><code class="language-none">$ echo $(date)2023年 02月 16日 星期四 22:18:32 CST$ diff &lt;(ls foo) &lt;(ls bar)注释：会显示目录foo和bar中文件的区别</code></pre></li><li>解释：<br>当您通过 <code>$( CMD )</code> 这样的方式来执行<code>CMD</code>这个命令时，它的输出结果会替换掉 <code>$( CMD )</code>。例如，如果执行 <code>for file in $(ls)</code> ，shell首先将调用<code>ls</code> ，然后遍历得到的这些返回值。还有一个冷门的类似特性是进程替换（process substitution），<code>&lt;( CMD )</code>会执行 <code>CMD</code> 并将结果输出到一个 <strong><em>临时文件</em></strong> 中，并将 <code>&lt;( CMD )</code> 替换成 <strong><em>临时文件名</em></strong> 。这在我们希望返回值通过文件而不是<code>STDIN</code>传递时很有用。例如， <code>diff &lt;(ls foo) &lt;(ls bar)</code> 会显示文件夹 <code>foo 和 bar</code> 中文件的区别。</li><li>举例：下面这个例子展示了一部分上面提到的特性。这段脚本会遍历我们提供的参数，使用<code>grep</code>搜索字符串 <code>foobar</code>，如果没有找到，则将其作为注释追加到文件中。<pre class="language-none"><code class="language-none">#!/bin/bashecho "Starting program at $(date)" # date会被替换成日期和时间echo "Running program $0 with $# arguments with pid $$" ## $0为for file in "$@"; do    grep foobar "$file" &gt; /dev/null 2&gt; /dev/null    # 如果模式没有找到，则grep退出状态为 1    # 我们将标准输出流和标准错误流重定向到Null，因为我们并不关心这些信息    if [[ $? -ne 0 ]]; then        echo "File $file does not have any foobar, adding one"        echo "# foobar" &gt;&gt; "$file"    fidone</code></pre>./example.sh mcd.sh script.py example.sh</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GNU/Linux </tag>
+            
+            <tag> youtube网课 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【Vivado】ROM IP核的使用</title>
       <link href="/posts/ab5b7cc3.html"/>
       <url>/posts/ab5b7cc3.html</url>
