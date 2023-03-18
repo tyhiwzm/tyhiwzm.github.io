@@ -6,7 +6,7 @@
   <link href="https://tyhiwzm.github.io/atom.xml" rel="self"/>
   
   <link href="https://tyhiwzm.github.io/"/>
-  <updated>2023-03-16T10:46:43.328Z</updated>
+  <updated>2023-03-18T02:12:54.114Z</updated>
   <id>https://tyhiwzm.github.io/</id>
   
   <author>
@@ -17,18 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【数字设计】《数字设计与计算机体系结构》第二版中译个人心得</title>
-    <link href="https://tyhiwzm.github.io/posts/496fb1b3.html"/>
-    <id>https://tyhiwzm.github.io/posts/496fb1b3.html</id>
-    <published>2023-03-12T06:32:00.241Z</published>
-    <updated>2023-03-16T10:46:43.328Z</updated>
+    <title>【计算机系统概论】第二版中译个人心得</title>
+    <link href="https://tyhiwzm.github.io/posts/3f09c5bf.html"/>
+    <id>https://tyhiwzm.github.io/posts/3f09c5bf.html</id>
+    <published>2023-03-18T02:05:22.701Z</published>
+    <updated>2023-03-18T02:12:54.114Z</updated>
+    
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="个人心得" scheme="https://tyhiwzm.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E5%BE%97/"/>
+    
+    <category term="书籍" scheme="https://tyhiwzm.github.io/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+    <category term="计算机系统概论" scheme="https://tyhiwzm.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【从零开始介绍CMake】</title>
+    <link href="https://tyhiwzm.github.io/posts/d95a6a0e.html"/>
+    <id>https://tyhiwzm.github.io/posts/d95a6a0e.html</id>
+    <published>2023-03-16T13:37:54.002Z</published>
+    <updated>2023-03-18T02:12:35.406Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2&gt;&lt;span</summary>
+    <summary type="html">&lt;h1&gt;&lt;span id=&quot;对应网课和版权所有链接&quot;&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span id=&quot;cmake&quot;&gt;CMake&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span id=&quot;说明&quot;&gt;说明&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;cmake的定义是什么</summary>
         
       
     
@@ -37,9 +58,36 @@
     <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="数字设计" scheme="https://tyhiwzm.github.io/tags/%E6%95%B0%E5%AD%97%E8%AE%BE%E8%AE%A1/"/>
+    <category term="CMake" scheme="https://tyhiwzm.github.io/tags/CMake/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【数字设计与计算机体系结构】第二版中译个人心得</title>
+    <link href="https://tyhiwzm.github.io/posts/496fb1b3.html"/>
+    <id>https://tyhiwzm.github.io/posts/496fb1b3.html</id>
+    <published>2023-03-12T06:32:00.241Z</published>
+    <updated>2023-03-18T02:06:21.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;175cmos-书p19&quot;&gt;1.7.5CMOS</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
     
     <category term="个人心得" scheme="https://tyhiwzm.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%BF%83%E5%BE%97/"/>
+    
+    <category term="数字设计与计算机体系结构" scheme="https://tyhiwzm.github.io/tags/%E6%95%B0%E5%AD%97%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="书籍" scheme="https://tyhiwzm.github.io/tags/%E4%B9%A6%E7%B1%8D/"/>
     
   </entry>
   
@@ -48,14 +96,14 @@
     <link href="https://tyhiwzm.github.io/posts/7eb74ede.html"/>
     <id>https://tyhiwzm.github.io/posts/7eb74ede.html</id>
     <published>2023-02-19T03:34:50.693Z</published>
-    <updated>2023-03-12T07:09:26.878Z</updated>
+    <updated>2023-03-17T12:18:43.825Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;gnulinuxlinux入门教程&quot;&gt;【GNU/Linux】Linux入门教程&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span id=&quot;0推荐链接&quot;&gt;0.推荐链接&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;未完成&quot;&gt;未完成&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span id=&quot;gnulinuxlinux入门教程&quot;&gt;【GNU/Linux】Linux入门教程&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span</summary>
         
       
     
@@ -67,6 +115,8 @@
     <category term="GNU/Linux" scheme="https://tyhiwzm.github.io/tags/GNU-Linux/"/>
     
     <category term="入门" scheme="https://tyhiwzm.github.io/tags/%E5%85%A5%E9%97%A8/"/>
+    
+    <category term="未完成" scheme="https://tyhiwzm.github.io/tags/%E6%9C%AA%E5%AE%8C%E6%88%90/"/>
     
   </entry>
   
@@ -104,15 +154,14 @@
     <link href="https://tyhiwzm.github.io/posts/341ca211.html"/>
     <id>https://tyhiwzm.github.io/posts/341ca211.html</id>
     <published>2023-02-16T12:10:32.375Z</published>
-    <updated>2023-03-10T09:18:06.901Z</updated>
+    <updated>2023-03-17T12:14:41.493Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;1-lecture-1-course-overview-the-shell&quot;&gt;1 Lecture 1: Course Overview + The Shell&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
+    <summary type="html">&lt;h3&gt;&lt;span id=&quot;未完成&quot;&gt;未完成&lt;/span&gt;&lt;/h3&gt;&lt;h2&gt;&lt;span id=&quot;1-lecture-1-course-overview-the-shell&quot;&gt;1 Lecture 1: Course Overview + The</summary>
         
       
     
@@ -124,6 +173,8 @@
     <category term="GNU/Linux" scheme="https://tyhiwzm.github.io/tags/GNU-Linux/"/>
     
     <category term="youtube网课" scheme="https://tyhiwzm.github.io/tags/youtube%E7%BD%91%E8%AF%BE/"/>
+    
+    <category term="未完成" scheme="https://tyhiwzm.github.io/tags/%E6%9C%AA%E5%AE%8C%E6%88%90/"/>
     
   </entry>
   
@@ -187,7 +238,7 @@
     <link href="https://tyhiwzm.github.io/posts/6393c1cf.html"/>
     <id>https://tyhiwzm.github.io/posts/6393c1cf.html</id>
     <published>2023-02-15T14:00:06.353Z</published>
-    <updated>2023-03-10T09:17:10.260Z</updated>
+    <updated>2023-03-17T12:14:35.937Z</updated>
     
     
       
