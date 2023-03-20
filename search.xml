@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>【高效论文阅读方法】</title>
+      <link href="/posts/1ba84580.html"/>
+      <url>/posts/1ba84580.html</url>
+      
+        <content type="html"><![CDATA[<h3><span id="论文分类">论文分类：</span></h3><hr><p><strong>1. 拿到论文首先分类</strong></p><ul><li>第一类：不值得阅读的论文。</li><li>第二类：值得了解的论文。可以快速浏览，了解其大致方法和大致思路即可（半小时作用）。（大部分论文）</li><li>第三类：值得精读的论文。有很高的启发性和一定的突破性；写作良好，实验结果经得住考验。</li><li>第四类：经典论文。不光要清楚细节，而且要尝试复现。</li></ul><p><strong>2. 如何给论文分类</strong></p><ul><li>询问。找导师和师兄师姐推荐。</li><li>引用量。引用量高的通过都比较值得阅读。</li><li>看整体结果速览一遍。如果论文结果不错，写作流畅，则可以看看。</li></ul><p><strong>3. 论文的八股文</strong></p><ol><li>先看​abstrac​t（摘要），弄清楚<ul><li>论文处理了什么问题。</li><li>提出了什么样的方法和创新点。</li><li>方法取得的效果。</li></ul></li><li><p>再看experients（实验），弄清楚</p><ul><li>作者实验环境如何搭建，比如使用了什么样的测试集、什么样的评估指标等。</li><li>作者跟什么方法进行比较。一般跟本领域的经典方法或者先进技术比较。</li><li>作者的方法取得了何种定性或者定量的效果。<br><strong>第一类和第二类论文到此即可。</strong><br><strong>对应第三类和第四类论文，知道problem、insight、motivation后，先停下阅读，尝试想想自己该如果解决这个问题。然后再继续阅读论文。</strong></li></ul></li><li><p>introduction，解作者的思路，试着从作者的角度思考问题，想想他是怎么完成这一思考工作的，很多时候，我们只了解what，不了解why？</p></li><li><p>approch/methods，决定精读或复现论文后，去钻研一些细节上的推导和算法实现。可以自己慢慢推导或者讲解给其他同学完成这一步。</p></li><li><p>related work，由于学术论文这一部分是最后写，通常不够用心，故建议使用survey综述类的文章去了解某一领域的发展情况，基本上一篇好的survey都涵盖了（我建议找一篇年限较新的综述，找不到的话使用年限稍旧的综述+最新的paper中的related work结合使用）。如果对该领域比较了解通过可以扫一扫甚至掠过。</p></li><li><p>读完一篇论文后，用审稿人的视角询问自己问题：</p><ul><li>这篇论文试图解决什么样的问题。</li><li>提出了什么样的方法和创新点。</li><li>方法取得了什么样的效果.</li><li>方法是否具有局限性和改进之处。自己试图给出答案。</li></ul></li></ol><p><strong>4. 如何写出好的论文</strong></p><ul><li>提出具体问题。一定得具体。</li><li>要掌握好实验的平台，了解相关理论和基本方法。</li><li>要提高论文写作能力。<br><strong>5. 李沐的论文阅读法</strong><ul><li><img src="/img/技术/论文/高效论文阅读/方法1.jpg" alt="包括论文的本地链接、引用数以及个人的注释等"></li><li><img src="/img/技术/论文/高效论文阅读/方法2.jpg" alt="可以用mermaid脚本语法插入一些图，表达论文之间的相互关系"></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 论文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【计算机系统概论】第二版中译个人心得</title>
       <link href="/posts/3f09c5bf.html"/>
       <url>/posts/3f09c5bf.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2><span id="第2章-bit-数据类型及其运算-书p14">第2章 bit、数据类型及其运算 书P14</span></h2><h3><span id="23-补码-书p16">2.3 补码 书P16</span></h3><ul><li>在补码的认知上，该节提出了一些很有意思的，我不曾想到的想法，特此记录。<ol><li>补码的好处：对符号相反的两个数求和，加法器能够<strong>直接</strong>对它们<strong>逐位相加</strong>。<ul><li>如真值为13对应补码01101，真值为-13对应补码10010，则它们的补码直接逐位相加结果为00000对应真值0，结果正确。</li></ul></li><li>补码的特征1： <code>REPRESENTATION(value+1) = REPRESENTATION(value) + REPRESENTATION(1)</code>，其中<code>REPRESENTATION(value)</code>代表数值value对应的码字。<ol><li>如<code>REPRESENTATION(-12) = REPRESENTATION(-13) + REPRESENTATION(1)</code>，其中<code>REPRESENTATION(-12)=10100</code>,<code>REPRESENTATION(-13)=10011</code>,<code>REPRESENTATION(1)=00001</code></li><li>如-1的码字是11111，-2是11110，-3是11101。</li></ol></li><li>补码的特征2：在补码表示中，如果已知一个非零整数A的码字，可以很方便地求得其相应负数-A的码字。口诀是<strong>取反加1</strong>。<ul><li>如-A=-13，对应码字为10011，则A=13对应码字为01101。</li></ul></li></ol></li></ul>]]></content>
       
       
       <categories>

@@ -6,7 +6,7 @@
   <link href="https://tyhiwzm.github.io/atom.xml" rel="self"/>
   
   <link href="https://tyhiwzm.github.io/"/>
-  <updated>2023-03-18T02:12:54.114Z</updated>
+  <updated>2023-03-20T10:56:35.869Z</updated>
   <id>https://tyhiwzm.github.io/</id>
   
   <author>
@@ -17,12 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>【高效论文阅读方法】</title>
+    <link href="https://tyhiwzm.github.io/posts/1ba84580.html"/>
+    <id>https://tyhiwzm.github.io/posts/1ba84580.html</id>
+    <published>2023-03-20T10:19:48.542Z</published>
+    <updated>2023-03-20T10:56:35.869Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3&gt;&lt;span id=&quot;论文分类&quot;&gt;论文分类：&lt;/span&gt;&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://tyhiwzm.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="论文" scheme="https://tyhiwzm.github.io/tags/%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【计算机系统概论】第二版中译个人心得</title>
     <link href="https://tyhiwzm.github.io/posts/3f09c5bf.html"/>
     <id>https://tyhiwzm.github.io/posts/3f09c5bf.html</id>
     <published>2023-03-18T02:05:22.701Z</published>
-    <updated>2023-03-18T02:12:54.114Z</updated>
+    <updated>2023-03-19T02:45:54.508Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;第2章-bit-数据类型及其运算-书p14&quot;&gt;第2章 bit、数据类型及其运算 书P14&lt;/span&gt;&lt;/h2&gt;&lt;h3&gt;&lt;span id=&quot;23-补码-书p16&quot;&gt;2.3 补码</summary>
+        
+      
     
     
     
@@ -42,7 +76,7 @@
     <link href="https://tyhiwzm.github.io/posts/d95a6a0e.html"/>
     <id>https://tyhiwzm.github.io/posts/d95a6a0e.html</id>
     <published>2023-03-16T13:37:54.002Z</published>
-    <updated>2023-03-18T02:12:35.406Z</updated>
+    <updated>2023-03-18T02:13:09.623Z</updated>
     
     
       
