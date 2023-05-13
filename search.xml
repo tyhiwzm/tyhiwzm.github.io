@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>【旅游】玫瑰花语-1</title>
+      <link href="/posts/8e712686.html"/>
+      <url>/posts/8e712686.html</url>
+      
+        <content type="html"><![CDATA[<h2><span id="玫瑰花语-1">玫瑰花语 — 1</span></h2><h3><span id="和糖糖的重庆之旅">和糖糖的重庆之旅</span></h3><p>又是跟着糖糖跑的小可爱一枚噜！贴心得做好了一切攻略的糖糖真的太可靠了！！收获小迷妹一枚！☆▽☆<br><img src="/img/玫瑰花语/1-1.png" width="30%" height="30%" alt> </p><h3><span id="和糖糖的两周年纪念日">和糖糖的两周年纪念日</span></h3><ul><li><p>马上就要到和糖糖的两周年纪念日了，本没有打算在纪念日相聚，但因五一高铁票太过难抢、房间也太过难定的原因，阴差阳错决定提前一周也就是刚好纪念日的那天相聚，这也许是天意吧。<br><img src="/img/玫瑰花语/1-2.png" width="30%" height="30%" alt> </p></li><li><p>终于到了见面的这天，我特地提出了让他带着一束花花来见我的要求，想象着他一路上捧着鲜花过来见我就十分期待，想象着下高铁后看到手捧花花等着我的场景就十分幸福，第一次感觉到时间过得那么那么漫长，心中的雀跃和欣喜似乎怎么都压不住.<br><img src="/img/玫瑰花语/1-3.png" width="30%" height="30%" alt> </p></li><li><p>糖糖是个小呆瓜噜，特地带花花来见我，但是见面的时候都不捧着花花而是用袋袋拎着，冲击力大大降低了好嘛！不过糖糖说下次就知道了，嗯~不知道下次见面是什么时候呢，真想一直和糖糖呆一块。<br><img src="/img/玫瑰花语/1-4.png" width="30%" height="30%" alt> </p></li><li><p>糖糖花了2小时布置的房间和漂亮的花花！！因为我说过糖糖之前送的一只口红味道不太好闻，特地又挑了只香香的口红。<br><img src="/img/玫瑰花语/1-5.png" width="30%" height="30%" alt> </p></li><li><p>和糖糖的情侣装噜！！！开森！！只可惜后两天就降温了，只能和糖糖在晚上穿一次了。本来还想和糖糖一起穿情侣装去学校里面逛来着…呜呜~人算不如天算。<br><img src="/img/玫瑰花语/1-6.png" width="30%" height="30%" alt> </p></li><li><p>糖糖带我去逛了他的学校，下了老大老大的雨，两个人在风里瑟瑟发抖。带我去买了心心念念的烧鸭，但是最后都没吃几口，呜呜呜呜呜~还有巨好吃的新疆餐厅和超级无敌变态辣的牛蛙。<br><img src="/img/玫瑰花语/1-7.png" width="30%" height="30%" alt> </p></li><li><p>妞妞是可爱憨憨宝！</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wzm </tag>
+            
+            <tag> tyh </tag>
+            
+            <tag> 旅游 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【git】Copilot使用指南</title>
+      <link href="/posts/cff33c4a.html"/>
+      <url>/posts/cff33c4a.html</url>
+      
+        <content type="html"><![CDATA[<ul><li><p>（可选）如果有其他建议，可以选择查看。<br>| OS | 查看下一个建议 | 查看上一个建议 |<br>| macOS | <kbd>Option (⌥) 或 Alt</kbd>+<kbd>]</kbd> | <kbd>Option (⌥) 或 Alt</kbd>+<kbd>[</kbd> |<br>| Windows | <kbd>Alt</kbd>+<kbd>]</kbd> | <kbd>Alt</kbd>+<kbd>[</kbd> |<br>| Linux | <kbd>Alt</kbd>+<kbd>]</kbd> | <kbd>Alt</kbd>+<kbd>[</kbd> |<br>若要接受建议，请按<code>Tab</code>。若要拒绝所有建议，请按<code>Esc</code>。</p></li><li><p>打开包含多个附加建议的新选项卡。</p><ul><li>若要打开具有多个其他选项的新选项卡，请按 <kbd>Ctrl</kbd>+<kbd>Enter</kbd>。</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> copilot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【计算机系统概论】第二版中译个人心得</title>
       <link href="/posts/3f09c5bf.html"/>
       <url>/posts/3f09c5bf.html</url>
@@ -91,7 +147,7 @@
       <link href="/posts/7eb74ede.html"/>
       <url>/posts/7eb74ede.html</url>
       
-        <content type="html"><![CDATA[<h2><span id="1终端重要命令">1.终端重要命令</span></h2><ul><li><h3><span id="查找操作">查找操作</span></h3><ul><li><code>find {{path}} -name {{file-name}}</code> - 在<code>path</code>目录下查找名为<code>file-name</code>的文件。<ul><li><code>find ./ -name "*.[ch]"</code> - 查找当前目录下的.c和.h文件</li></ul></li><li><code>grep "int i" {{file-name}}</code> - 查找文件<code>file</code>内<code>int i</code>的位置。<ul><li><strong>note</strong>:这里没有限定单词边界。</li></ul></li><li><code>grep "\bint i\b" {{file-name}}</code> - 查找文件<code>file</code>内<code>int i</code>的位置。注意这里<ul><li><code>\b \b</code> - 单词边界。</li><li><strong>note</strong>:这里限定单词边界。</li></ul></li><li><code>find ./ -name "*.[ch]" | xargs grep "#include" | sort | uniq</code> - 列出<code>.c</code>和<code>.h</code>文件中所有被包含过的头文件。 <strong>eXtended ARGumentS:xargs</strong> - <code>sort</code>是排序，<code>uniq</code>是去除相同的。<ul><li><strong>推广：可以据此查找任意文件中的任意一段代码。</strong></li></ul></li><li><code>grep -r 'hello' ./</code>递归地在当前目录下查找’hello’,若查找内容中有同类型引号，则在前加<code>\</code></li><li><code>find ./ -name 'dir'</code>在当前目录下查找名字为<code>dir</code>的目录。<code>./</code>代表当前目录。</li><li><code>find ./ -name '*.*' | xargs grep 'hello' | sort | uniq</code>在当前目录下查找所有文件中的<code>hello</code>。</li><li>通配符<ul><li><code>*</code>为任意长度的任意字符串</li><li><code>?</code>为任意一个字符</li><li><code>[]</code>为集合中的任意一个字符</li><li><code>{}</code>括号拓展。例如<code>echo Hello-{a,bb,cc}-{1,2}</code></li></ul></li></ul></li><li><h3><span id="统计操作">统计操作</span></h3><ul><li><code>df -h</code> - 查看磁盘分区的使用情况。<strong>df:disk free</strong>。</li><li><code>wc {{file}}</code> - 统计文件的行数/单词数/字符数<ul><li><code>wc -l {{file}}</code> - 统计文件的行数</li><li><code>wc -w {{file}}</code> - 统计文件的单词数</li><li><code>wc -c {{file}}</code> - 统计文件的字符数</li></ul></li><li><code>strace {{program}}</code> - system call trace, 记录程序运行过程中的系统调用信息<ul><li>如<code>strace ls</code>。查看<code>ls</code>命令的系统调用信息。</li><li>通过观察程序运行过程中发生的系统调用，可以大致了解程序关键行为。</li></ul></li><li><code>ltrace {{program}}</code> - library call trace, 记录程序运行过程中的库调用信息</li></ul></li><li><h3><span id="文件操作">文件操作</span></h3><ul><li><code>sudo apt-get install {{tool-name}}</code> - 一键下载安装新工具</li><li><code>wget {{http://www.xxx.com//abc.zip}}</code> - 网站下载文件</li><li><code>iconv -f uft-8 -t gbk {{file-name}}</code> - 将文件file的格式进行转换，例子中是从<code>uft-8</code>转换到<code>gbk</code></li><li>比较两个文件是否完全相同<ul><li>文本文件的比较: <code>vimdiff {{file1}} {{file2}}</code></li><li>非文本文件的比较: <code>diff {{file1}} {{file2}}</code></li><li>很大的文件: <code>md5sum {{file1}} {{file2}}</code> - 两个文件的md5码不一样，就肯定不是同一个文件。</li></ul></li><li><code>rm -rf ./*</code>删除当前目录下的所有文件。</li><li><code>cat {{file}}</code>打印文件中的内容。</li><li><code>echo "" &gt; {{file}}</code>清空文件。</li><li><code>echo "abc" &gt;&gt; {{file}}</code>将”abc”追加到文件内。</li><li><code>touch {{file}}</code>创建文件。</li><li><code>tree</code>显示当前目录下的目录树。</li><li><code>rm ./*.txt</code>删除当前目录下的所有.txt文件。</li><li><code>a,b y *</code>复制a到b行的内容到系统剪切板<ul><li><code>*</code>为系统剪切板，<code>y</code>为复制</li></ul></li><li><code>chmod 777</code>后接对应操作获取文件权限。</li><li><code>chmod -R 777 *</code>对当前目录下的所有文件获取权限。去掉<code>-R</code>就只限于当前目录。</li><li><code>tar -xzvf 压缩文件名.tar.gz</code>解压.tar.gz文件。</li><li><code>tar -xvf 压缩文件名.tar.bz2</code>解压.tar.bz文件。</li><li><code>cat 压缩文件名.tar.bz2.parta* &gt; 压缩文件名.tar.bz2</code>将parta*分离压缩文件合并成完整的压缩文件。</li></ul></li><li><h3><span id="任务管理">任务管理</span></h3><ul><li><strong>推荐方法</strong>：<code>gnome-system-monitor</code> - 打开任务栏图形界面。</li></ul></li><li><h3><span id="命令管理">命令管理</span></h3><ul><li><code>history</code> - 查看历史命令</li><li><code>!{{number}}</code> - 执行历史命令中的第<code>number</code>条命令</li><li><code>!!</code> - 执行上一条命令</li><li><code>!{{string}}</code> - 执行最近的以<code>string</code>开头的命令</li><li><code>!{{string}}:p</code> - 打印最近的以<code>string</code>开头的命令，但不执行</li><li><code>!{{string}}:s/{{old}}/{{new}}</code> - 执行最近的以<code>string</code>开头的命令，将其中的<code>old</code>替换为<code>new</code></li><li><code>!{{string}}:gs/{{old}}/{{new}}</code> - 执行最近的以<code>string</code>开头的命令，将其中的<code>old</code>全部替换为<code>new</code></li><li><code>!{{number}}:p</code> - 打印历史命令中的第<code>number</code>条命令，但不执行</li><li><code>!{{number}}:s/{{old}}/{{new}}</code> - 执行历史命令中的第<code>number</code>条命令，将其中的<code>old</code>替换为<code>new</code></li><li><code>!{{number}}:gs/{{old}}/{{new}}</code> - 执行历史命令中的第<code>number</code>条命令，将其中的<code>old</code>全部替换为<code>new</code></li></ul></li></ul><h2><span id="2sh文件重要命令基本所有操作与终端一致">2.<code>.sh</code>文件重要命令（基本所有操作与终端一致）</span></h2><ul><li><h3><span id="脚本指定">脚本指定</span></h3><ul><li><code>#!/bin/bash</code> - 指定脚本解释器为bash</li></ul></li><li><h3><span id="变量更改">变量更改</span></h3><ul><li><code>export {{variable}}={{value}}</code> - 将变量<code>variable</code>的值设置为<code>value</code><ul><li>echo  - 打印变量<code>variable</code>的值</li></ul></li><li><code>export {{variable}}="${{variable}}:=/usr/local}"</code> - 如果变量<code>variable</code>未定义，则将其值设置为<code>/usr/local</code><ul><li>echo  - 打印变量<code>variable</code>的值</li></ul></li><li><code>expr ${{variable}} + 1</code> - 将变量的值加1</li><li>x分别取a到z的值，然后执行do中的语句。<pre class="language-none"><code class="language-none">for x in {a..z}do    echo $xdone</code></pre></li></ul></li></ul><hr>]]></content>
+        <content type="html"><![CDATA[<h2><span id="1终端重要命令">1.终端重要命令</span></h2><ul><li><h3><span id="查找操作">查找操作</span></h3><ul><li><code>find {{path}} -name {{file-name}}</code> - 在<code>path</code>目录下查找名为<code>file-name</code>的文件。<ul><li><code>find ./ -name "*.[ch]"</code> - 查找当前目录下的.c和.h文件</li></ul></li><li><code>grep "int i" {{file-name}}</code> - 查找文件<code>file</code>内<code>int i</code>的位置。<ul><li><strong>note</strong>:这里没有限定单词边界。</li></ul></li><li><code>grep "\bint i\b" {{file-name}}</code> - 查找文件<code>file</code>内<code>int i</code>的位置。注意这里<ul><li><code>\b \b</code> - 单词边界。</li><li><strong>note</strong>:这里限定单词边界。</li></ul></li><li><code>find ./ -name "*.[ch]" | xargs grep "#include" | sort | uniq</code> - 列出<code>.c</code>和<code>.h</code>文件中所有被包含过的头文件。 <strong>eXtended ARGumentS:xargs</strong> - <code>sort</code>是排序，<code>uniq</code>是去除相同的。<ul><li><strong>推广：可以据此查找任意文件中的任意一段代码。</strong></li></ul></li><li><code>grep -r 'hello' ./</code>递归地在当前目录下查找’hello’,若查找内容中有同类型引号，则在前加<code>\</code></li><li><code>find ./ -name 'dir'</code>在当前目录下查找名字为<code>dir</code>的目录。<code>./</code>代表当前目录。</li><li><code>find ./ -name '*.*' | xargs grep 'hello' | sort | uniq</code>在当前目录下查找所有文件中的<code>hello</code>。</li><li>通配符<ul><li><code>*</code>为任意长度的任意字符串</li><li><code>?</code>为任意一个字符</li><li><code>[]</code>为集合中的任意一个字符</li><li><code>{}</code>括号拓展。例如<code>echo Hello-{a,bb,cc}-{1,2}</code></li></ul></li></ul></li><li><h3><span id="统计操作">统计操作</span></h3><ul><li><code>df -h</code> - 查看磁盘分区的使用情况。<strong>df:disk free</strong>。</li><li><code>wc {{file}}</code> - 统计文件的行数/单词数/字符数<ul><li><code>wc -l {{file}}</code> - 统计文件的行数</li><li><code>wc -w {{file}}</code> - 统计文件的单词数</li><li><code>wc -c {{file}}</code> - 统计文件的字符数</li></ul></li><li><code>strace {{program}}</code> - system call trace, 记录程序运行过程中的系统调用信息<ul><li>如<code>strace ls</code>。查看<code>ls</code>命令的系统调用信息。</li><li>通过观察程序运行过程中发生的系统调用，可以大致了解程序关键行为。</li></ul></li><li><code>ltrace {{program}}</code> - library call trace, 记录程序运行过程中的库调用信息</li></ul></li><li><h3><span id="文件操作">文件操作</span></h3><ul><li><code>sudo apt-get install {{tool-name}}</code> - 一键下载安装新工具</li><li><code>wget {{http://www.xxx.com//abc.zip}}</code> - 网站下载文件</li><li><code>iconv -f uft-8 -t gbk {{file-name}}</code> - 将文件file的格式进行转换，例子中是从<code>uft-8</code>转换到<code>gbk</code></li><li>比较两个文件是否完全相同<ul><li>文本文件的比较: <code>vimdiff {{file1}} {{file2}}</code></li><li>非文本文件的比较: <code>diff {{file1}} {{file2}}</code></li><li>很大的文件: <code>md5sum {{file1}} {{file2}}</code> - 两个文件的md5码不一样，就肯定不是同一个文件。</li></ul></li><li><code>rm -rf ./*</code>删除当前目录下的所有文件。</li><li><code>cat {{file}}</code>打印文件中的内容。</li><li><code>echo "" &gt; {{file}}</code>清空文件。</li><li><code>echo "abc" &gt;&gt; {{file}}</code>将”abc”追加到文件内。</li><li><code>touch {{file}}</code>创建文件。</li><li><code>tree</code>显示当前目录下的目录树。</li><li><code>rm ./*.txt</code>删除当前目录下的所有.txt文件。</li><li><code>a,b y *</code>复制a到b行的内容到系统剪切板<ul><li><code>*</code>为系统剪切板，<code>y</code>为复制</li></ul></li><li><code>chmod 777</code>后接对应操作获取文件权限。</li><li><code>chmod -R 777 *</code>对当前目录下的所有文件获取权限。去掉<code>-R</code>就只限于当前目录。</li><li><code>tar -xzvf 压缩文件名.tar.gz</code>解压.tar.gz文件。</li><li><code>tar -xvf 压缩文件名.tar.bz2</code>解压.tar.bz文件。</li><li><code>cat 压缩文件名.tar.bz2.parta* &gt; 压缩文件名.tar.bz2</code>将parta*分离压缩文件合并成完整的压缩文件。</li><li><code>cp -r dirA dirB</code>复制目录A到目录B</li></ul></li><li><h3><span id="任务管理">任务管理</span></h3><ul><li><strong>推荐方法</strong>：<code>gnome-system-monitor</code> - 打开任务栏图形界面。</li></ul></li><li><h3><span id="命令管理">命令管理</span></h3><ul><li><code>history</code> - 查看历史命令</li><li><code>!{{number}}</code> - 执行历史命令中的第<code>number</code>条命令</li><li><code>!!</code> - 执行上一条命令</li><li><code>!{{string}}</code> - 执行最近的以<code>string</code>开头的命令</li><li><code>!{{string}}:p</code> - 打印最近的以<code>string</code>开头的命令，但不执行</li><li><code>!{{string}}:s/{{old}}/{{new}}</code> - 执行最近的以<code>string</code>开头的命令，将其中的<code>old</code>替换为<code>new</code></li><li><code>!{{string}}:gs/{{old}}/{{new}}</code> - 执行最近的以<code>string</code>开头的命令，将其中的<code>old</code>全部替换为<code>new</code></li><li><code>!{{number}}:p</code> - 打印历史命令中的第<code>number</code>条命令，但不执行</li><li><code>!{{number}}:s/{{old}}/{{new}}</code> - 执行历史命令中的第<code>number</code>条命令，将其中的<code>old</code>替换为<code>new</code></li><li><code>!{{number}}:gs/{{old}}/{{new}}</code> - 执行历史命令中的第<code>number</code>条命令，将其中的<code>old</code>全部替换为<code>new</code></li></ul></li></ul><h2><span id="2sh文件重要命令基本所有操作与终端一致">2.<code>.sh</code>文件重要命令（基本所有操作与终端一致）</span></h2><ul><li><h3><span id="脚本指定">脚本指定</span></h3><ul><li><code>#!/bin/bash</code> - 指定脚本解释器为bash</li></ul></li><li><h3><span id="变量更改">变量更改</span></h3><ul><li><code>export {{variable}}={{value}}</code> - 将变量<code>variable</code>的值设置为<code>value</code><ul><li>echo  - 打印变量<code>variable</code>的值</li></ul></li><li><code>export {{variable}}="${{variable}}:=/usr/local}"</code> - 如果变量<code>variable</code>未定义，则将其值设置为<code>/usr/local</code><ul><li>echo  - 打印变量<code>variable</code>的值</li></ul></li><li><code>expr ${{variable}} + 1</code> - 将变量的值加1</li><li>x分别取a到z的值，然后执行do中的语句。<pre class="language-none"><code class="language-none">for x in {a..z}do    echo $xdone</code></pre></li></ul></li><li><h3><span id="参数获取">参数获取</span></h3><ul><li><code>$1</code>获取第一个参数</li><li><code>$2</code>获取第二个参数</li><li><code>$#</code>获取参数个数</li><li><code>$@</code>获取所有参数</li><li><code>$0</code>获取脚本名称</li><li><code>$?</code>获取上一条命令的返回值</li><li>$$$$获取当前进程的进程号</li><li><code>$!</code>获取上一条命令的进程号</li></ul></li><li><h3><span id="函数调用">函数调用</span></h3></li></ul><hr>]]></content>
       
       
       <categories>
